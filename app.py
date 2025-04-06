@@ -7,8 +7,6 @@ from langchain.callbacks import StreamlitCallbackHandler  ## It allows us to com
 import os
 from dotenv import load_dotenv
 # load_dotenv()  ## Now, no need to do this, bcz I will add in Streamlit web page
-## Code updated 
-
 
 ## Here, we have used the in-built tool of Arxiv
 api_wrapper_arxiv = ArxivAPIWrapper(top_k_results=1, doc_content_chars_max=250) ## doc_content_chars_max, we can increase this
